@@ -1,6 +1,8 @@
-body {
-  margin: 0;
-  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background: #f8f9fa;
-  color: #111;
+:root{
+  --green:#2e7d32;
+  --green2:#43a047;
+  --dark:#111;
 }
+html,body{margin:0;padding:0;background:linear-gradient(180deg,#0b0b0b 0%, #111 20%, #1a1f1a 55%, #e8efe7 100%);min-height:100%;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111;}
+*{box-sizing:border-box}
+a{color:inherit;text-decoration:none}
